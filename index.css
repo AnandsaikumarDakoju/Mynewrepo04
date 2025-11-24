@@ -1,0 +1,101 @@
+/* 1. Global Reset - Removes default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* 2. Navigation Bar Styling */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex; /* Puts logo and links side-by-side */
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #00adb5; /* Change color on hover */
+}
+
+/* 3. Hero Section Styling */
+.hero {
+    background-color: #00adb5;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: white;
+    color: #00adb5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #333;
+    color: white;
+    transition: 0.3s;
+}
+
+/* 4. Features Grid */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+    flex-wrap: wrap; /* Allows items to wrap on small screens */
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card h3 {
+    color: #00adb5;
+    margin-bottom: 10px;
+}
+
+/* 5. Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: auto;
+}
